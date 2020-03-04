@@ -14,6 +14,7 @@ public class RockController : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("RockC");
         transform.Translate(0, -fallSpeed, 0, Space.World);
         transform.Rotate(0, 0, rotSpeed);
 

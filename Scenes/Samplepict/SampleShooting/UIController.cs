@@ -28,7 +28,7 @@ public class UIController : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("UI");
+        Debug.Log("UI2");
         scoreText.GetComponent<Text>().text = "score:" + score.ToString("D4");  
     }
 }

@@ -7,7 +7,7 @@ public class RockGenerator : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("hello");
+        Debug.Log("RockG");
         InvokeRepeating("GenRock", 1, 1);
     }
     
