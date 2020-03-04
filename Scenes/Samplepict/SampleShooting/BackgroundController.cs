@@ -7,6 +7,7 @@ public class BackgroundController : MonoBehaviour
   
     void Update()
     {
+        Debug.Log("Back");
         transform.Translate(0, -0.03f, 0);
         if (transform.position.y < -4.9f)
         {

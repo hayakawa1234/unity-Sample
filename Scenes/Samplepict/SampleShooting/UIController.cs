@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine.UI;
 using UnityEngine;
+using System;
 
 public class UIController : MonoBehaviour
 {
@@ -20,12 +21,14 @@ public class UIController : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("UI");
         this.scoreText = GameObject.Find("Score");
         this.gameOverText = GameObject.Find("GameOver");
     }
 
     void Update()
     {
+        Debug.Log("UI");
         scoreText.GetComponent<Text>().text = "score:" + score.ToString("D4");  
     }
 }
